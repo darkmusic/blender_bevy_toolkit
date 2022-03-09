@@ -185,9 +185,9 @@ fn main() {
             selected_scene_name: start_scene,
             current_scene_name: None,
         })
-        .add_startup_system(setup_world.system())
-        .add_startup_system(setup_ui.system())
-        .add_system(key_handler.system())
-        .add_system(display_scene_list.system())
+        .add_startup_system(setup_world)
+        .add_startup_system(setup_ui)
+        .add_system(key_handler)
+        .add_system(display_scene_list)
         .run();
 }
