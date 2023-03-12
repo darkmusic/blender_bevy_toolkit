@@ -11,7 +11,7 @@ license = "MIT"
 anyhow = "1.0"
 serde = {version = "1", features = ["derive"]}
 smallvec = { version = "1.4", features = ["serde"] }
-glam = { version = "0.20.0" }
+glam = { version = "0.21.3" }
 
 [dependencies.bevy]
 #version="0.6.0"
